@@ -147,7 +147,7 @@ violations_covered_plot = function(datafile, width, height, margin) {
 
 
     var legend = svg.append("g")
-        .attr("transform", "translate(" + (width/2) + "," + 30 + ")");
+        .attr("transform", "translate(" + (width/2+30) + "," + 30 + ")");
 
     legend.append("rect")
         .attr("class", "legend")

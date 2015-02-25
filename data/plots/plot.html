@@ -11,8 +11,8 @@
 <script>
 
 var margin = {top: 20, right: 20, bottom: 30, left: 40},
-    width = 700 - margin.left - margin.right,
-    height = 400 - margin.top - margin.bottom;
+    width = 600 - margin.left - margin.right,
+    height = 300 - margin.top - margin.bottom;
 
 steps_until_timeout_plot("../experiments/avg-steps-until-timeout.tsv", width, height, margin)
 violations_covered_plot("../experiments/violations-covered.tsv", width, height, margin)
